@@ -19,7 +19,6 @@
 #include <sys/mman.h>
 #include <sys/stat.h>
 #include <fcntl.h>
-#include <linux/limits.h>
 #include <arpa/inet.h>
 #include <sys/socket.h>
 #include <sys/types.h>
