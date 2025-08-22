@@ -374,7 +374,7 @@ void jd_cp(const char *src, const char *path)
 
 	fdd = jd_fopen(path, src, "w");
 	if (!fdd) {
-		fclose(fdd);
+		fclose(fds);
 		warn_handler("Could not copy '%s'", src);
 		return;
 	}
