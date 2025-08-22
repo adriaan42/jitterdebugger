@@ -3,6 +3,7 @@
 #define _GNU_SOURCE
 
 #include <errno.h>
+#include <libgen.h>
 #include <stdio.h>
 #include <stdarg.h>
 #include <stdlib.h>
